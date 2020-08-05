@@ -8,5 +8,11 @@
 
 import Foundation
 
-print("Hello, World!")
+//Pedometeres().start()
+BalancesInOrder().start()
+//SmallestDiv().start()
+//Password().start()
+
+
+
 

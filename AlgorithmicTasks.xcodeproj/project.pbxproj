@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122D018124E16FFA00747DF5 /* KeyboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D018024E16FFA00747DF5 /* KeyboardRow.swift */; };
+		122D018324E1741A00747DF5 /* ValidPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D018224E1741A00747DF5 /* ValidPalindrome.swift */; };
+		122D018524E1753200747DF5 /* ValidPalindromeII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D018424E1753200747DF5 /* ValidPalindromeII.swift */; };
 		127D6FE724DADF7F00FEF6D0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D6FE624DADF7F00FEF6D0 /* main.swift */; };
 		127D6FEE24DAE03E00FEF6D0 /* Pedometers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D6FED24DAE03E00FEF6D0 /* Pedometers.swift */; };
 		127D6FF024DAEAFA00FEF6D0 /* BalancesInOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D6FEF24DAEAFA00FEF6D0 /* BalancesInOrder.swift */; };
 		127D6FF224DAFF7A00FEF6D0 /* SmallestDiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D6FF124DAFF7A00FEF6D0 /* SmallestDiv.swift */; };
 		127D6FF424DB021B00FEF6D0 /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D6FF324DB021B00FEF6D0 /* Password.swift */; };
+		12E5411824E1834600B094F0 /* DetectCapital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E5411724E1834600B094F0 /* DetectCapital.swift */; };
+		12E5411A24E1A72A00B094F0 /* ImplementStrStr().swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E5411924E1A72A00B094F0 /* ImplementStrStr().swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,12 +32,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		122D018024E16FFA00747DF5 /* KeyboardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardRow.swift; sourceTree = "<group>"; };
+		122D018224E1741A00747DF5 /* ValidPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPalindrome.swift; sourceTree = "<group>"; };
+		122D018424E1753200747DF5 /* ValidPalindromeII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPalindromeII.swift; sourceTree = "<group>"; };
 		127D6FE324DADF7F00FEF6D0 /* AlgorithmicTasks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmicTasks; sourceTree = BUILT_PRODUCTS_DIR; };
 		127D6FE624DADF7F00FEF6D0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		127D6FED24DAE03E00FEF6D0 /* Pedometers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedometers.swift; sourceTree = "<group>"; };
 		127D6FEF24DAEAFA00FEF6D0 /* BalancesInOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancesInOrder.swift; sourceTree = "<group>"; };
 		127D6FF124DAFF7A00FEF6D0 /* SmallestDiv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallestDiv.swift; sourceTree = "<group>"; };
 		127D6FF324DB021B00FEF6D0 /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		12E5411724E1834600B094F0 /* DetectCapital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectCapital.swift; sourceTree = "<group>"; };
+		12E5411924E1A72A00B094F0 /* ImplementStrStr().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImplementStrStr().swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +80,21 @@
 				127D6FEF24DAEAFA00FEF6D0 /* BalancesInOrder.swift */,
 				127D6FF124DAFF7A00FEF6D0 /* SmallestDiv.swift */,
 				127D6FF324DB021B00FEF6D0 /* Password.swift */,
+				12E5411624E1825900B094F0 /* LeetCode */,
 			);
 			path = AlgorithmicTasks;
+			sourceTree = "<group>";
+		};
+		12E5411624E1825900B094F0 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				122D018024E16FFA00747DF5 /* KeyboardRow.swift */,
+				122D018224E1741A00747DF5 /* ValidPalindrome.swift */,
+				122D018424E1753200747DF5 /* ValidPalindromeII.swift */,
+				12E5411724E1834600B094F0 /* DetectCapital.swift */,
+				12E5411924E1A72A00B094F0 /* ImplementStrStr().swift */,
+			);
+			path = LeetCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122D018524E1753200747DF5 /* ValidPalindromeII.swift in Sources */,
 				127D6FF224DAFF7A00FEF6D0 /* SmallestDiv.swift in Sources */,
+				122D018324E1741A00747DF5 /* ValidPalindrome.swift in Sources */,
+				12E5411824E1834600B094F0 /* DetectCapital.swift in Sources */,
 				127D6FE724DADF7F00FEF6D0 /* main.swift in Sources */,
 				127D6FF024DAEAFA00FEF6D0 /* BalancesInOrder.swift in Sources */,
+				12E5411A24E1A72A00B094F0 /* ImplementStrStr().swift in Sources */,
+				122D018124E16FFA00747DF5 /* KeyboardRow.swift in Sources */,
 				127D6FF424DB021B00FEF6D0 /* Password.swift in Sources */,
 				127D6FEE24DAE03E00FEF6D0 /* Pedometers.swift in Sources */,
 			);

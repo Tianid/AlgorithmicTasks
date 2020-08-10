@@ -9,10 +9,11 @@
 import Foundation
 
 //Pedometeres().start()
-BalancesInOrder().start()
+//BalancesInOrder().start()
 //SmallestDiv().start()
 //Password().start()
-
-
-
-
+//KeyboardRow().start()
+//ValidPalindrome().start()
+//ValidPalindromeII().start()
+//DetectCapital().start()
+ImplementStrStr().start()

@@ -17,6 +17,12 @@
 		127D6FF424DB021B00FEF6D0 /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D6FF324DB021B00FEF6D0 /* Password.swift */; };
 		12E5411824E1834600B094F0 /* DetectCapital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E5411724E1834600B094F0 /* DetectCapital.swift */; };
 		12E5411A24E1A72A00B094F0 /* ImplementStrStr().swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E5411924E1A72A00B094F0 /* ImplementStrStr().swift */; };
+		12F0DA3A24E2BABD00B7F182 /* IsomorphicStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F0DA3924E2BABD00B7F182 /* IsomorphicStrings.swift */; };
+		12F0DA3C24E2C43500B7F182 /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F0DA3B24E2C43500B7F182 /* ReverseString.swift */; };
+		12F0DA3E24E2E08500B7F182 /* ReverseStringII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F0DA3D24E2E08500B7F182 /* ReverseStringII.swift */; };
+		12F0DA4024E2E1A600B7F182 /* ReverseVowelsOfAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F0DA3F24E2E1A600B7F182 /* ReverseVowelsOfAString.swift */; };
+		12F0DA4224E2F21500B7F182 /* ReverseWordsInAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F0DA4124E2F21500B7F182 /* ReverseWordsInAString.swift */; };
+		12F0DA4424E2F6EC00B7F182 /* ReverseWordsInAStringIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F0DA4324E2F6EC00B7F182 /* ReverseWordsInAStringIII.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +49,12 @@
 		127D6FF324DB021B00FEF6D0 /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
 		12E5411724E1834600B094F0 /* DetectCapital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectCapital.swift; sourceTree = "<group>"; };
 		12E5411924E1A72A00B094F0 /* ImplementStrStr().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImplementStrStr().swift"; sourceTree = "<group>"; };
+		12F0DA3924E2BABD00B7F182 /* IsomorphicStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsomorphicStrings.swift; sourceTree = "<group>"; };
+		12F0DA3B24E2C43500B7F182 /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
+		12F0DA3D24E2E08500B7F182 /* ReverseStringII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringII.swift; sourceTree = "<group>"; };
+		12F0DA3F24E2E1A600B7F182 /* ReverseVowelsOfAString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseVowelsOfAString.swift; sourceTree = "<group>"; };
+		12F0DA4124E2F21500B7F182 /* ReverseWordsInAString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsInAString.swift; sourceTree = "<group>"; };
+		12F0DA4324E2F6EC00B7F182 /* ReverseWordsInAStringIII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsInAStringIII.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +105,12 @@
 				122D018424E1753200747DF5 /* ValidPalindromeII.swift */,
 				12E5411724E1834600B094F0 /* DetectCapital.swift */,
 				12E5411924E1A72A00B094F0 /* ImplementStrStr().swift */,
+				12F0DA3924E2BABD00B7F182 /* IsomorphicStrings.swift */,
+				12F0DA3B24E2C43500B7F182 /* ReverseString.swift */,
+				12F0DA3D24E2E08500B7F182 /* ReverseStringII.swift */,
+				12F0DA3F24E2E1A600B7F182 /* ReverseVowelsOfAString.swift */,
+				12F0DA4124E2F21500B7F182 /* ReverseWordsInAString.swift */,
+				12F0DA4324E2F6EC00B7F182 /* ReverseWordsInAStringIII.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -159,11 +177,17 @@
 				127D6FF224DAFF7A00FEF6D0 /* SmallestDiv.swift in Sources */,
 				122D018324E1741A00747DF5 /* ValidPalindrome.swift in Sources */,
 				12E5411824E1834600B094F0 /* DetectCapital.swift in Sources */,
+				12F0DA4024E2E1A600B7F182 /* ReverseVowelsOfAString.swift in Sources */,
 				127D6FE724DADF7F00FEF6D0 /* main.swift in Sources */,
+				12F0DA3C24E2C43500B7F182 /* ReverseString.swift in Sources */,
+				12F0DA4224E2F21500B7F182 /* ReverseWordsInAString.swift in Sources */,
+				12F0DA3E24E2E08500B7F182 /* ReverseStringII.swift in Sources */,
 				127D6FF024DAEAFA00FEF6D0 /* BalancesInOrder.swift in Sources */,
 				12E5411A24E1A72A00B094F0 /* ImplementStrStr().swift in Sources */,
 				122D018124E16FFA00747DF5 /* KeyboardRow.swift in Sources */,
 				127D6FF424DB021B00FEF6D0 /* Password.swift in Sources */,
+				12F0DA3A24E2BABD00B7F182 /* IsomorphicStrings.swift in Sources */,
+				12F0DA4424E2F6EC00B7F182 /* ReverseWordsInAStringIII.swift in Sources */,
 				127D6FEE24DAE03E00FEF6D0 /* Pedometers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

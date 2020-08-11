@@ -16,4 +16,12 @@ import Foundation
 //ValidPalindrome().start()
 //ValidPalindromeII().start()
 //DetectCapital().start()
-ImplementStrStr().start()
+//ImplementStrStr().start()
+//IsomorphicStrings().start()
+//ReverseString().start()
+//ReverseStringII().start()
+//ReverseVowelsOfAString().start()
+//ReverseWordsInAString().start()
+ReverseWordsInAStringIII().start()
+
+

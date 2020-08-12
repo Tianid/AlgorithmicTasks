@@ -22,6 +22,8 @@ import Foundation
 //ReverseStringII().start()
 //ReverseVowelsOfAString().start()
 //ReverseWordsInAString().start()
-ReverseWordsInAStringIII().start()
-
+//ReverseWordsInAStringIII().start()
+//LengthOfLastWord().start()
+//StringCompression().start()
+AddStrings().start()
 

@@ -15,6 +15,9 @@
 		127D6FF024DAEAFA00FEF6D0 /* BalancesInOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D6FEF24DAEAFA00FEF6D0 /* BalancesInOrder.swift */; };
 		127D6FF224DAFF7A00FEF6D0 /* SmallestDiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D6FF124DAFF7A00FEF6D0 /* SmallestDiv.swift */; };
 		127D6FF424DB021B00FEF6D0 /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D6FF324DB021B00FEF6D0 /* Password.swift */; };
+		12D2DBB024E409F400A35289 /* LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2DBAF24E409F400A35289 /* LengthOfLastWord.swift */; };
+		12D2DBB224E40D7900A35289 /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2DBB124E40D7900A35289 /* StringCompression.swift */; };
+		12D2DBB424E41EFD00A35289 /* AddStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2DBB324E41EFD00A35289 /* AddStrings.swift */; };
 		12E5411824E1834600B094F0 /* DetectCapital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E5411724E1834600B094F0 /* DetectCapital.swift */; };
 		12E5411A24E1A72A00B094F0 /* ImplementStrStr().swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E5411924E1A72A00B094F0 /* ImplementStrStr().swift */; };
 		12F0DA3A24E2BABD00B7F182 /* IsomorphicStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F0DA3924E2BABD00B7F182 /* IsomorphicStrings.swift */; };
@@ -47,6 +50,9 @@
 		127D6FEF24DAEAFA00FEF6D0 /* BalancesInOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancesInOrder.swift; sourceTree = "<group>"; };
 		127D6FF124DAFF7A00FEF6D0 /* SmallestDiv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallestDiv.swift; sourceTree = "<group>"; };
 		127D6FF324DB021B00FEF6D0 /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		12D2DBAF24E409F400A35289 /* LengthOfLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLastWord.swift; sourceTree = "<group>"; };
+		12D2DBB124E40D7900A35289 /* StringCompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCompression.swift; sourceTree = "<group>"; };
+		12D2DBB324E41EFD00A35289 /* AddStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrings.swift; sourceTree = "<group>"; };
 		12E5411724E1834600B094F0 /* DetectCapital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectCapital.swift; sourceTree = "<group>"; };
 		12E5411924E1A72A00B094F0 /* ImplementStrStr().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImplementStrStr().swift"; sourceTree = "<group>"; };
 		12F0DA3924E2BABD00B7F182 /* IsomorphicStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsomorphicStrings.swift; sourceTree = "<group>"; };
@@ -111,6 +117,9 @@
 				12F0DA3F24E2E1A600B7F182 /* ReverseVowelsOfAString.swift */,
 				12F0DA4124E2F21500B7F182 /* ReverseWordsInAString.swift */,
 				12F0DA4324E2F6EC00B7F182 /* ReverseWordsInAStringIII.swift */,
+				12D2DBAF24E409F400A35289 /* LengthOfLastWord.swift */,
+				12D2DBB124E40D7900A35289 /* StringCompression.swift */,
+				12D2DBB324E41EFD00A35289 /* AddStrings.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -180,13 +189,16 @@
 				12F0DA4024E2E1A600B7F182 /* ReverseVowelsOfAString.swift in Sources */,
 				127D6FE724DADF7F00FEF6D0 /* main.swift in Sources */,
 				12F0DA3C24E2C43500B7F182 /* ReverseString.swift in Sources */,
+				12D2DBB024E409F400A35289 /* LengthOfLastWord.swift in Sources */,
 				12F0DA4224E2F21500B7F182 /* ReverseWordsInAString.swift in Sources */,
+				12D2DBB424E41EFD00A35289 /* AddStrings.swift in Sources */,
 				12F0DA3E24E2E08500B7F182 /* ReverseStringII.swift in Sources */,
 				127D6FF024DAEAFA00FEF6D0 /* BalancesInOrder.swift in Sources */,
 				12E5411A24E1A72A00B094F0 /* ImplementStrStr().swift in Sources */,
 				122D018124E16FFA00747DF5 /* KeyboardRow.swift in Sources */,
 				127D6FF424DB021B00FEF6D0 /* Password.swift in Sources */,
 				12F0DA3A24E2BABD00B7F182 /* IsomorphicStrings.swift in Sources */,
+				12D2DBB224E40D7900A35289 /* StringCompression.swift in Sources */,
 				12F0DA4424E2F6EC00B7F182 /* ReverseWordsInAStringIII.swift in Sources */,
 				127D6FEE24DAE03E00FEF6D0 /* Pedometers.swift in Sources */,
 			);

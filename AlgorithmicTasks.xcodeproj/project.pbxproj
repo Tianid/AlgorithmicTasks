@@ -26,6 +26,8 @@
 		12F0DA4024E2E1A600B7F182 /* ReverseVowelsOfAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F0DA3F24E2E1A600B7F182 /* ReverseVowelsOfAString.swift */; };
 		12F0DA4224E2F21500B7F182 /* ReverseWordsInAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F0DA4124E2F21500B7F182 /* ReverseWordsInAString.swift */; };
 		12F0DA4424E2F6EC00B7F182 /* ReverseWordsInAStringIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F0DA4324E2F6EC00B7F182 /* ReverseWordsInAStringIII.swift */; };
+		12FC8A5624E57EBD004096AA /* ShortestDistanceToACharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FC8A5524E57EBD004096AA /* ShortestDistanceToACharacter.swift */; };
+		12FC8A5A24E59215004096AA /* ValidAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FC8A5924E59215004096AA /* ValidAnagram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +63,8 @@
 		12F0DA3F24E2E1A600B7F182 /* ReverseVowelsOfAString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseVowelsOfAString.swift; sourceTree = "<group>"; };
 		12F0DA4124E2F21500B7F182 /* ReverseWordsInAString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsInAString.swift; sourceTree = "<group>"; };
 		12F0DA4324E2F6EC00B7F182 /* ReverseWordsInAStringIII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsInAStringIII.swift; sourceTree = "<group>"; };
+		12FC8A5524E57EBD004096AA /* ShortestDistanceToACharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortestDistanceToACharacter.swift; sourceTree = "<group>"; };
+		12FC8A5924E59215004096AA /* ValidAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidAnagram.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 				12D2DBAF24E409F400A35289 /* LengthOfLastWord.swift */,
 				12D2DBB124E40D7900A35289 /* StringCompression.swift */,
 				12D2DBB324E41EFD00A35289 /* AddStrings.swift */,
+				12FC8A5524E57EBD004096AA /* ShortestDistanceToACharacter.swift */,
+				12FC8A5924E59215004096AA /* ValidAnagram.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -183,6 +189,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				122D018524E1753200747DF5 /* ValidPalindromeII.swift in Sources */,
+				12FC8A5624E57EBD004096AA /* ShortestDistanceToACharacter.swift in Sources */,
+				12FC8A5A24E59215004096AA /* ValidAnagram.swift in Sources */,
 				127D6FF224DAFF7A00FEF6D0 /* SmallestDiv.swift in Sources */,
 				122D018324E1741A00747DF5 /* ValidPalindrome.swift in Sources */,
 				12E5411824E1834600B094F0 /* DetectCapital.swift in Sources */,

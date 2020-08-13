@@ -25,5 +25,6 @@ import Foundation
 //ReverseWordsInAStringIII().start()
 //LengthOfLastWord().start()
 //StringCompression().start()
-AddStrings().start()
-
+//AddStrings().start()
+//ShortestDistanceToACharacter().start()
+ValidAnagram().start()

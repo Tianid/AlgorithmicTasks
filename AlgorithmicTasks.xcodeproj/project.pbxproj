@@ -15,6 +15,10 @@
 		127D6FF024DAEAFA00FEF6D0 /* BalancesInOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D6FEF24DAEAFA00FEF6D0 /* BalancesInOrder.swift */; };
 		127D6FF224DAFF7A00FEF6D0 /* SmallestDiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D6FF124DAFF7A00FEF6D0 /* SmallestDiv.swift */; };
 		127D6FF424DB021B00FEF6D0 /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D6FF324DB021B00FEF6D0 /* Password.swift */; };
+		12B9702124E6AF0E009B3CE3 /* RansomNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B9702024E6AF0E009B3CE3 /* RansomNote.swift */; };
+		12B9702324E6B6C7009B3CE3 /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B9702224E6B6C7009B3CE3 /* GroupAnagrams.swift */; };
+		12B9702524E6CBF0009B3CE3 /* FindDuplicateFileInSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B9702424E6CBF0009B3CE3 /* FindDuplicateFileInSystem.swift */; };
+		12B9702724E6D36F009B3CE3 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B9702624E6D36F009B3CE3 /* LongestCommonPrefix.swift */; };
 		12D2DBB024E409F400A35289 /* LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2DBAF24E409F400A35289 /* LengthOfLastWord.swift */; };
 		12D2DBB224E40D7900A35289 /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2DBB124E40D7900A35289 /* StringCompression.swift */; };
 		12D2DBB424E41EFD00A35289 /* AddStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2DBB324E41EFD00A35289 /* AddStrings.swift */; };
@@ -52,6 +56,10 @@
 		127D6FEF24DAEAFA00FEF6D0 /* BalancesInOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancesInOrder.swift; sourceTree = "<group>"; };
 		127D6FF124DAFF7A00FEF6D0 /* SmallestDiv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallestDiv.swift; sourceTree = "<group>"; };
 		127D6FF324DB021B00FEF6D0 /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		12B9702024E6AF0E009B3CE3 /* RansomNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomNote.swift; sourceTree = "<group>"; };
+		12B9702224E6B6C7009B3CE3 /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
+		12B9702424E6CBF0009B3CE3 /* FindDuplicateFileInSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDuplicateFileInSystem.swift; sourceTree = "<group>"; };
+		12B9702624E6D36F009B3CE3 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		12D2DBAF24E409F400A35289 /* LengthOfLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLastWord.swift; sourceTree = "<group>"; };
 		12D2DBB124E40D7900A35289 /* StringCompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCompression.swift; sourceTree = "<group>"; };
 		12D2DBB324E41EFD00A35289 /* AddStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrings.swift; sourceTree = "<group>"; };
@@ -126,6 +134,10 @@
 				12D2DBB324E41EFD00A35289 /* AddStrings.swift */,
 				12FC8A5524E57EBD004096AA /* ShortestDistanceToACharacter.swift */,
 				12FC8A5924E59215004096AA /* ValidAnagram.swift */,
+				12B9702024E6AF0E009B3CE3 /* RansomNote.swift */,
+				12B9702224E6B6C7009B3CE3 /* GroupAnagrams.swift */,
+				12B9702424E6CBF0009B3CE3 /* FindDuplicateFileInSystem.swift */,
+				12B9702624E6D36F009B3CE3 /* LongestCommonPrefix.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -190,11 +202,15 @@
 			files = (
 				122D018524E1753200747DF5 /* ValidPalindromeII.swift in Sources */,
 				12FC8A5624E57EBD004096AA /* ShortestDistanceToACharacter.swift in Sources */,
+				12B9702524E6CBF0009B3CE3 /* FindDuplicateFileInSystem.swift in Sources */,
 				12FC8A5A24E59215004096AA /* ValidAnagram.swift in Sources */,
 				127D6FF224DAFF7A00FEF6D0 /* SmallestDiv.swift in Sources */,
 				122D018324E1741A00747DF5 /* ValidPalindrome.swift in Sources */,
+				12B9702724E6D36F009B3CE3 /* LongestCommonPrefix.swift in Sources */,
 				12E5411824E1834600B094F0 /* DetectCapital.swift in Sources */,
+				12B9702324E6B6C7009B3CE3 /* GroupAnagrams.swift in Sources */,
 				12F0DA4024E2E1A600B7F182 /* ReverseVowelsOfAString.swift in Sources */,
+				12B9702124E6AF0E009B3CE3 /* RansomNote.swift in Sources */,
 				127D6FE724DADF7F00FEF6D0 /* main.swift in Sources */,
 				12F0DA3C24E2C43500B7F182 /* ReverseString.swift in Sources */,
 				12D2DBB024E409F400A35289 /* LengthOfLastWord.swift in Sources */,

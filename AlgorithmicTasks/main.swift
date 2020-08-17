@@ -31,4 +31,7 @@ import Foundation
 //RansomNote().start()
 //GroupAnagrams().start()
 //FindDuplicateFileInSystem().start()
-LongestCommonPrefix().start()
+//LongestCommonPrefix().start()
+//LongestSubstringWithoutRepeatingCharacters().start()
+//WordPattern().start()
+PermutationInString().start()

@@ -15,6 +15,8 @@
 		127D6FF024DAEAFA00FEF6D0 /* BalancesInOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D6FEF24DAEAFA00FEF6D0 /* BalancesInOrder.swift */; };
 		127D6FF224DAFF7A00FEF6D0 /* SmallestDiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D6FF124DAFF7A00FEF6D0 /* SmallestDiv.swift */; };
 		127D6FF424DB021B00FEF6D0 /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D6FF324DB021B00FEF6D0 /* Password.swift */; };
+		129947B124EAB0F300A5565C /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129947B024EAB0F300A5565C /* LongestSubstringWithoutRepeatingCharacters.swift */; };
+		129947B324EABD9B00A5565C /* WordPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129947B224EABD9B00A5565C /* WordPattern.swift */; };
 		12B9702124E6AF0E009B3CE3 /* RansomNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B9702024E6AF0E009B3CE3 /* RansomNote.swift */; };
 		12B9702324E6B6C7009B3CE3 /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B9702224E6B6C7009B3CE3 /* GroupAnagrams.swift */; };
 		12B9702524E6CBF0009B3CE3 /* FindDuplicateFileInSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B9702424E6CBF0009B3CE3 /* FindDuplicateFileInSystem.swift */; };
@@ -56,6 +58,8 @@
 		127D6FEF24DAEAFA00FEF6D0 /* BalancesInOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancesInOrder.swift; sourceTree = "<group>"; };
 		127D6FF124DAFF7A00FEF6D0 /* SmallestDiv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallestDiv.swift; sourceTree = "<group>"; };
 		127D6FF324DB021B00FEF6D0 /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		129947B024EAB0F300A5565C /* LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
+		129947B224EABD9B00A5565C /* WordPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPattern.swift; sourceTree = "<group>"; };
 		12B9702024E6AF0E009B3CE3 /* RansomNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomNote.swift; sourceTree = "<group>"; };
 		12B9702224E6B6C7009B3CE3 /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
 		12B9702424E6CBF0009B3CE3 /* FindDuplicateFileInSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDuplicateFileInSystem.swift; sourceTree = "<group>"; };
@@ -138,6 +142,8 @@
 				12B9702224E6B6C7009B3CE3 /* GroupAnagrams.swift */,
 				12B9702424E6CBF0009B3CE3 /* FindDuplicateFileInSystem.swift */,
 				12B9702624E6D36F009B3CE3 /* LongestCommonPrefix.swift */,
+				129947B024EAB0F300A5565C /* LongestSubstringWithoutRepeatingCharacters.swift */,
+				129947B224EABD9B00A5565C /* WordPattern.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129947B324EABD9B00A5565C /* WordPattern.swift in Sources */,
 				122D018524E1753200747DF5 /* ValidPalindromeII.swift in Sources */,
 				12FC8A5624E57EBD004096AA /* ShortestDistanceToACharacter.swift in Sources */,
 				12B9702524E6CBF0009B3CE3 /* FindDuplicateFileInSystem.swift in Sources */,
@@ -223,6 +230,7 @@
 				127D6FF424DB021B00FEF6D0 /* Password.swift in Sources */,
 				12F0DA3A24E2BABD00B7F182 /* IsomorphicStrings.swift in Sources */,
 				12D2DBB224E40D7900A35289 /* StringCompression.swift in Sources */,
+				129947B124EAB0F300A5565C /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				12F0DA4424E2F6EC00B7F182 /* ReverseWordsInAStringIII.swift in Sources */,
 				127D6FEE24DAE03E00FEF6D0 /* Pedometers.swift in Sources */,
 			);

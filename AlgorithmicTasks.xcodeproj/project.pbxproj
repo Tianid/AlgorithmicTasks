@@ -17,6 +17,13 @@
 		127D6FF424DB021B00FEF6D0 /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D6FF324DB021B00FEF6D0 /* Password.swift */; };
 		129947B124EAB0F300A5565C /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129947B024EAB0F300A5565C /* LongestSubstringWithoutRepeatingCharacters.swift */; };
 		129947B324EABD9B00A5565C /* WordPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129947B224EABD9B00A5565C /* WordPattern.swift */; };
+		129F408824EBF59B00FB5932 /* SortArrayByParity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F408724EBF59B00FB5932 /* SortArrayByParity.swift */; };
+		129F408A24EBF70100FB5932 /* MaxConsecutiveOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F408924EBF70100FB5932 /* MaxConsecutiveOnes.swift */; };
+		129F408C24EBFCB000FB5932 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F408B24EBFCB000FB5932 /* ReverseLinkedList.swift */; };
+		129F409024EC03CA00FB5932 /* PalindromeLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F408F24EC03CA00FB5932 /* PalindromeLinkedList.swift */; };
+		129F409224EC040200FB5932 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F409124EC040200FB5932 /* ListNode.swift */; };
+		129F409424EC0A2600FB5932 /* SwapNodesInPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F409324EC0A2600FB5932 /* SwapNodesInPairs.swift */; };
+		129F409624EC141200FB5932 /* RemoveLinkedListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F409524EC141200FB5932 /* RemoveLinkedListElements.swift */; };
 		12B9702124E6AF0E009B3CE3 /* RansomNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B9702024E6AF0E009B3CE3 /* RansomNote.swift */; };
 		12B9702324E6B6C7009B3CE3 /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B9702224E6B6C7009B3CE3 /* GroupAnagrams.swift */; };
 		12B9702524E6CBF0009B3CE3 /* FindDuplicateFileInSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B9702424E6CBF0009B3CE3 /* FindDuplicateFileInSystem.swift */; };
@@ -60,6 +67,13 @@
 		127D6FF324DB021B00FEF6D0 /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
 		129947B024EAB0F300A5565C /* LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
 		129947B224EABD9B00A5565C /* WordPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPattern.swift; sourceTree = "<group>"; };
+		129F408724EBF59B00FB5932 /* SortArrayByParity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortArrayByParity.swift; sourceTree = "<group>"; };
+		129F408924EBF70100FB5932 /* MaxConsecutiveOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxConsecutiveOnes.swift; sourceTree = "<group>"; };
+		129F408B24EBFCB000FB5932 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
+		129F408F24EC03CA00FB5932 /* PalindromeLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeLinkedList.swift; sourceTree = "<group>"; };
+		129F409124EC040200FB5932 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		129F409324EC0A2600FB5932 /* SwapNodesInPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapNodesInPairs.swift; sourceTree = "<group>"; };
+		129F409524EC141200FB5932 /* RemoveLinkedListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveLinkedListElements.swift; sourceTree = "<group>"; };
 		12B9702024E6AF0E009B3CE3 /* RansomNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomNote.swift; sourceTree = "<group>"; };
 		12B9702224E6B6C7009B3CE3 /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
 		12B9702424E6CBF0009B3CE3 /* FindDuplicateFileInSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDuplicateFileInSystem.swift; sourceTree = "<group>"; };
@@ -119,7 +133,7 @@
 			path = AlgorithmicTasks;
 			sourceTree = "<group>";
 		};
-		12E5411624E1825900B094F0 /* LeetCode */ = {
+		129F408624EBF0FC00FB5932 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
 				122D018024E16FFA00747DF5 /* KeyboardRow.swift */,
@@ -144,6 +158,37 @@
 				12B9702624E6D36F009B3CE3 /* LongestCommonPrefix.swift */,
 				129947B024EAB0F300A5565C /* LongestSubstringWithoutRepeatingCharacters.swift */,
 				129947B224EABD9B00A5565C /* WordPattern.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		129F408D24EC021A00FB5932 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				129F408724EBF59B00FB5932 /* SortArrayByParity.swift */,
+				129F408924EBF70100FB5932 /* MaxConsecutiveOnes.swift */,
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
+		129F408E24EC022100FB5932 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				129F409124EC040200FB5932 /* ListNode.swift */,
+				129F408B24EBFCB000FB5932 /* ReverseLinkedList.swift */,
+				129F408F24EC03CA00FB5932 /* PalindromeLinkedList.swift */,
+				129F409324EC0A2600FB5932 /* SwapNodesInPairs.swift */,
+				129F409524EC141200FB5932 /* RemoveLinkedListElements.swift */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		12E5411624E1825900B094F0 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				129F408624EBF0FC00FB5932 /* Strings */,
+				129F408D24EC021A00FB5932 /* Arrays */,
+				129F408E24EC022100FB5932 /* LinkedList */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -214,15 +259,21 @@
 				127D6FF224DAFF7A00FEF6D0 /* SmallestDiv.swift in Sources */,
 				122D018324E1741A00747DF5 /* ValidPalindrome.swift in Sources */,
 				12B9702724E6D36F009B3CE3 /* LongestCommonPrefix.swift in Sources */,
+				129F409424EC0A2600FB5932 /* SwapNodesInPairs.swift in Sources */,
 				12E5411824E1834600B094F0 /* DetectCapital.swift in Sources */,
+				129F408824EBF59B00FB5932 /* SortArrayByParity.swift in Sources */,
 				12B9702324E6B6C7009B3CE3 /* GroupAnagrams.swift in Sources */,
+				129F409224EC040200FB5932 /* ListNode.swift in Sources */,
 				12F0DA4024E2E1A600B7F182 /* ReverseVowelsOfAString.swift in Sources */,
 				12B9702124E6AF0E009B3CE3 /* RansomNote.swift in Sources */,
 				127D6FE724DADF7F00FEF6D0 /* main.swift in Sources */,
 				12F0DA3C24E2C43500B7F182 /* ReverseString.swift in Sources */,
+				129F409624EC141200FB5932 /* RemoveLinkedListElements.swift in Sources */,
+				129F408C24EBFCB000FB5932 /* ReverseLinkedList.swift in Sources */,
 				12D2DBB024E409F400A35289 /* LengthOfLastWord.swift in Sources */,
 				12F0DA4224E2F21500B7F182 /* ReverseWordsInAString.swift in Sources */,
 				12D2DBB424E41EFD00A35289 /* AddStrings.swift in Sources */,
+				129F409024EC03CA00FB5932 /* PalindromeLinkedList.swift in Sources */,
 				12F0DA3E24E2E08500B7F182 /* ReverseStringII.swift in Sources */,
 				127D6FF024DAEAFA00FEF6D0 /* BalancesInOrder.swift in Sources */,
 				12E5411A24E1A72A00B094F0 /* ImplementStrStr().swift in Sources */,
@@ -232,6 +283,7 @@
 				12D2DBB224E40D7900A35289 /* StringCompression.swift in Sources */,
 				129947B124EAB0F300A5565C /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				12F0DA4424E2F6EC00B7F182 /* ReverseWordsInAStringIII.swift in Sources */,
+				129F408A24EBF70100FB5932 /* MaxConsecutiveOnes.swift in Sources */,
 				127D6FEE24DAE03E00FEF6D0 /* Pedometers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

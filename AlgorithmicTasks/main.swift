@@ -46,4 +46,5 @@ import Foundation
 //RemoveNthNodeFromEndOfList().start()
 //RotateList().start()
 //ValidParentheses().start()
-LongestValidParentheses().start()
+//MergeSort().start()
+QuickSort().start()

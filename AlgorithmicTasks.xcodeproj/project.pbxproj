@@ -26,6 +26,8 @@
 		129F409224EC040200FB5932 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F409124EC040200FB5932 /* ListNode.swift */; };
 		129F409424EC0A2600FB5932 /* SwapNodesInPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F409324EC0A2600FB5932 /* SwapNodesInPairs.swift */; };
 		129F409624EC141200FB5932 /* RemoveLinkedListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F409524EC141200FB5932 /* RemoveLinkedListElements.swift */; };
+		12ACACE32566CBA1000AC9B8 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACACE22566CBA1000AC9B8 /* MergeSort.swift */; };
+		12ACACE52566DB70000AC9B8 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACACE42566DB70000AC9B8 /* QuickSort.swift */; };
 		12B9702124E6AF0E009B3CE3 /* RansomNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B9702024E6AF0E009B3CE3 /* RansomNote.swift */; };
 		12B9702324E6B6C7009B3CE3 /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B9702224E6B6C7009B3CE3 /* GroupAnagrams.swift */; };
 		12B9702524E6CBF0009B3CE3 /* FindDuplicateFileInSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B9702424E6CBF0009B3CE3 /* FindDuplicateFileInSystem.swift */; };
@@ -82,6 +84,8 @@
 		129F409124EC040200FB5932 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		129F409324EC0A2600FB5932 /* SwapNodesInPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapNodesInPairs.swift; sourceTree = "<group>"; };
 		129F409524EC141200FB5932 /* RemoveLinkedListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveLinkedListElements.swift; sourceTree = "<group>"; };
+		12ACACE22566CBA1000AC9B8 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		12ACACE42566DB70000AC9B8 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		12B9702024E6AF0E009B3CE3 /* RansomNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomNote.swift; sourceTree = "<group>"; };
 		12B9702224E6B6C7009B3CE3 /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
 		12B9702424E6CBF0009B3CE3 /* FindDuplicateFileInSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDuplicateFileInSystem.swift; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 				127D6FEF24DAEAFA00FEF6D0 /* BalancesInOrder.swift */,
 				127D6FF124DAFF7A00FEF6D0 /* SmallestDiv.swift */,
 				127D6FF324DB021B00FEF6D0 /* Password.swift */,
+				12ACACE22566CBA1000AC9B8 /* MergeSort.swift */,
+				12ACACE42566DB70000AC9B8 /* QuickSort.swift */,
 				12E5411624E1825900B094F0 /* LeetCode */,
 			);
 			path = AlgorithmicTasks;
@@ -305,6 +311,7 @@
 				12F0DA4224E2F21500B7F182 /* ReverseWordsInAString.swift in Sources */,
 				12D2DBB424E41EFD00A35289 /* AddStrings.swift in Sources */,
 				129F409024EC03CA00FB5932 /* PalindromeLinkedList.swift in Sources */,
+				12ACACE32566CBA1000AC9B8 /* MergeSort.swift in Sources */,
 				12CC8EEE24ED533E002C68A7 /* RemoveDuplicatesFromSortedListII.swift in Sources */,
 				12F0DA3E24E2E08500B7F182 /* ReverseStringII.swift in Sources */,
 				127D6FF024DAEAFA00FEF6D0 /* BalancesInOrder.swift in Sources */,
@@ -313,6 +320,7 @@
 				127D6FF424DB021B00FEF6D0 /* Password.swift in Sources */,
 				12F0DA3A24E2BABD00B7F182 /* IsomorphicStrings.swift in Sources */,
 				12D2DBB224E40D7900A35289 /* StringCompression.swift in Sources */,
+				12ACACE52566DB70000AC9B8 /* QuickSort.swift in Sources */,
 				129947B124EAB0F300A5565C /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				12F0DA4424E2F6EC00B7F182 /* ReverseWordsInAStringIII.swift in Sources */,
 				129F408A24EBF70100FB5932 /* MaxConsecutiveOnes.swift in Sources */,
